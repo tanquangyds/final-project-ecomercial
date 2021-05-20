@@ -1,0 +1,27 @@
+.searchbar{
+    width:100%;
+    form{
+        width: 100%;
+        div{
+            display: flex;
+            align-items: center;
+            width:100%;
+            input{
+                border:none;
+                outline:none;
+                padding:10px;
+                width: 100%;
+            }
+            button{
+                padding:10px;
+                border:none;
+                outline:none;
+                background-color: transparent;
+                cursor: pointer;
+                .searchIcon{
+                    color: orange;
+                }
+            }
+        }
+    }
+}

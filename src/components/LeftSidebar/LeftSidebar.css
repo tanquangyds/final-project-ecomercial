@@ -1,0 +1,10 @@
+.left-side {
+  width: 20%;
+  box-shadow: 1px 3px 3px #ccc;
+  position: relative;
+}
+.left-side-list {
+  position: absolute;
+  top: 5%;
+  left: 0%;
+}

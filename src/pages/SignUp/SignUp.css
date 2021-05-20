@@ -1,0 +1,12 @@
+.register-form{
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    display: flex;
+    flex-flow: column;
+    padding: 1rem 2rem;
+    border: 1px solid grey;
+}

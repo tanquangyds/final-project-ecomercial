@@ -1,0 +1,39 @@
+.slick-prev:before, .slick-next:before {
+  
+    color: grey!important;
+   }
+
+   .details__image {
+    width: 70%;
+    height: auto;
+    padding-right: 30px;
+    margin-bottom: 120px;
+}
+   .slick-dots {
+    width: 100% !important;
+    top: 100%!important;
+    display: flex!important;
+    justify-content:space-between!important;
+    height:70px!important;
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 24%!important;
+    height: 20px;
+    margin: 0 0px!important;
+    padding: 0;
+    cursor: pointer;
+}
+.details__image  img {
+    box-shadow: 0 1px 6px rgb(239 233 242);
+    border: 1px solid rgb(239, 233, 242);   
+    width: 100%;
+    height: auto;
+    margin-bottom: 0!important;
+    border-radius: 5px;
+    transition: all 0.7s;
+}
+.details__image  img:hover{
+    border:2px solid blue;
+}
